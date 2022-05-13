@@ -21,7 +21,7 @@ import plotly.graph_objects as go
 # I would like your input on some other indicators to look at/strategies.
 
 # get ticker data
-df = yf.Ticker('BTC-USD').history(period='1y')[map(str.title, ['open', 'close', 'low', 'high', 'volume'])] #Good examples: BTC-USD,AAPL,VFV.TO Bad examples: TSLA
+df = yf.Ticker('NFLX').history(period='1y')[map(str.title, ['open', 'close', 'low', 'high', 'volume'])] #Good examples: BTC-USD,AAPL,VFV.TO Bad examples: TSLA
 # calculate MACD values
 df.ta.macd(close='close', fast=12, slow=26, append=True)
 # Force lowercase (optional)

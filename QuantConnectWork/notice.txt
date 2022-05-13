@@ -1,0 +1,3 @@
+None of these will actually work outside of the environment.
+
+Saved them here for future reference.

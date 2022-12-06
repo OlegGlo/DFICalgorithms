@@ -1,0 +1,9 @@
+
+# env stuff
+venv/
+
+envsetup.txt
+
+.vscode
+
+.DS_Store

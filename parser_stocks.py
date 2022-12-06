@@ -1,6 +1,6 @@
 import csv
 
-class dataParser:
+class stockParser:
 
     def __init__(self) -> None:
         self.data = list()
@@ -21,7 +21,7 @@ class dataParser:
             self.index += 1
             return ticker
 
-test = dataParser()
+test = stockParser()
 test.ParseData()
 # test.GetTicker()
 # print(test.GetTicker())

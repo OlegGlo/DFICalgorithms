@@ -1,9 +1,0 @@
-python3 -m venv venv === create
-
-source env/bin/activate === to activate
-
-(env) should appear as a prefix.
-
-deactivate === to deactivate
-
-Make sure to select the correct interpreter (One within the env folder)

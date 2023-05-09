@@ -1,6 +1,6 @@
 from tkinter import Y
 import pandas_ta as ta
-import dash
+# import dash
 import plotly
 import numpy as np
 import yfinance as yf
